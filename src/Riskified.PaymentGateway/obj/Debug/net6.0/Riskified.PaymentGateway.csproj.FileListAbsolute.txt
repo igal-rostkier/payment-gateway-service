@@ -1,0 +1,12 @@
+C:\Users\igal\Downloads\payment-gateway-service\src\Riskified.PaymentGateway\obj\Debug\net6.0\Riskified.PaymentGateway.csproj.AssemblyReference.cache
+C:\Users\igal\Downloads\payment-gateway-service\src\Riskified.PaymentGateway\obj\Debug\net6.0\Riskified.PaymentGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igal\Downloads\payment-gateway-service\src\Riskified.PaymentGateway\obj\Debug\net6.0\Riskified.PaymentGateway.AssemblyInfoInputs.cache
+C:\Users\igal\Downloads\payment-gateway-service\src\Riskified.PaymentGateway\obj\Debug\net6.0\Riskified.PaymentGateway.AssemblyInfo.cs
+C:\Users\igal\Downloads\payment-gateway-service\src\Riskified.PaymentGateway\obj\Debug\net6.0\Riskified.PaymentGateway.csproj.CoreCompileInputs.cache
+C:\Users\igal\Downloads\payment-gateway-service\src\Riskified.PaymentGateway\bin\Debug\net6.0\Riskified.PaymentGateway.deps.json
+C:\Users\igal\Downloads\payment-gateway-service\src\Riskified.PaymentGateway\bin\Debug\net6.0\Riskified.PaymentGateway.dll
+C:\Users\igal\Downloads\payment-gateway-service\src\Riskified.PaymentGateway\bin\Debug\net6.0\ref\Riskified.PaymentGateway.dll
+C:\Users\igal\Downloads\payment-gateway-service\src\Riskified.PaymentGateway\bin\Debug\net6.0\Riskified.PaymentGateway.pdb
+C:\Users\igal\Downloads\payment-gateway-service\src\Riskified.PaymentGateway\obj\Debug\net6.0\Riskified.PaymentGateway.dll
+C:\Users\igal\Downloads\payment-gateway-service\src\Riskified.PaymentGateway\obj\Debug\net6.0\ref\Riskified.PaymentGateway.dll
+C:\Users\igal\Downloads\payment-gateway-service\src\Riskified.PaymentGateway\obj\Debug\net6.0\Riskified.PaymentGateway.pdb

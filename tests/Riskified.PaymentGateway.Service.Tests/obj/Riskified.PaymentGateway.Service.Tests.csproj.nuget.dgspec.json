@@ -1,0 +1,308 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\igal\\Downloads\\payment-gateway-service\\tests\\Riskified.PaymentGateway.Service.Tests\\Riskified.PaymentGateway.Service.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Riskified.PaymentGateway.Service\\Riskified.PaymentGateway.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Riskified.PaymentGateway.Service\\Riskified.PaymentGateway.Service.csproj",
+        "projectName": "Riskified.PaymentGateway.Service",
+        "projectPath": "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Riskified.PaymentGateway.Service\\Riskified.PaymentGateway.Service.csproj",
+        "packagesPath": "C:\\Users\\igal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Riskified.PaymentGateway.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Riskified.PaymentGateway\\Riskified.PaymentGateway.csproj": {
+                "projectPath": "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Riskified.PaymentGateway\\Riskified.PaymentGateway.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreLockProperties": {
+          "restorePackagesWithLockFile": "true"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2021.3.0, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "NServiceBus": {
+              "target": "Package",
+              "version": "[7.5.0, )"
+            },
+            "NServiceBus.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NServiceBus.RabbitMQ": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.11.0-dev-01380, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Riskified.PaymentGateway\\Riskified.PaymentGateway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Riskified.PaymentGateway\\Riskified.PaymentGateway.csproj",
+        "projectName": "Riskified.PaymentGateway",
+        "projectPath": "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Riskified.PaymentGateway\\Riskified.PaymentGateway.csproj",
+        "packagesPath": "C:\\Users\\igal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Riskified.PaymentGateway\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreLockProperties": {
+          "restorePackagesWithLockFile": "true"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2021.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\igal\\Downloads\\payment-gateway-service\\tests\\Riskified.PaymentGateway.Service.Tests\\Riskified.PaymentGateway.Service.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\igal\\Downloads\\payment-gateway-service\\tests\\Riskified.PaymentGateway.Service.Tests\\Riskified.PaymentGateway.Service.Tests.csproj",
+        "projectName": "Riskified.PaymentGateway.Service.Tests",
+        "projectPath": "C:\\Users\\igal\\Downloads\\payment-gateway-service\\tests\\Riskified.PaymentGateway.Service.Tests\\Riskified.PaymentGateway.Service.Tests.csproj",
+        "packagesPath": "C:\\Users\\igal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igal\\Downloads\\payment-gateway-service\\tests\\Riskified.PaymentGateway.Service.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Riskified.PaymentGateway.Service\\Riskified.PaymentGateway.Service.csproj": {
+                "projectPath": "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Riskified.PaymentGateway.Service\\Riskified.PaymentGateway.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreLockProperties": {
+          "restorePackagesWithLockFile": "true"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "JetBrains.Annotations": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2021.3.0, )"
+            },
+            "JunitXml.TestLogger": {
+              "target": "Package",
+              "version": "[3.0.98, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "NServiceBus.Testing": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

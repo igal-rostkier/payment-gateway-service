@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Camilyo.MyService\\Camilyo.MyService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Camilyo.MyService\\Camilyo.MyService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Camilyo.MyService\\Camilyo.MyService.csproj",
+        "projectName": "Camilyo.MyService",
+        "projectPath": "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Camilyo.MyService\\Camilyo.MyService.csproj",
+        "packagesPath": "C:\\Users\\igal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igal\\Downloads\\payment-gateway-service\\src\\Camilyo.MyService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igal\\Downloads\\payment-gateway-service\\NuGet.Config",
+          "C:\\Users\\igal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.develop.camilyo.net/repository/camilyoweb-nuget/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreLockProperties": {
+          "restorePackagesWithLockFile": "true"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Camilyo.Framework.Domain": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "JetBrains.Annotations": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2021.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

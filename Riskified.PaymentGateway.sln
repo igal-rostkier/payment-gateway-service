@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riskified.PaymentGateway", "src\Riskified.PaymentGateway\Riskified.PaymentGateway.csproj", "{A9DCFE99-064B-4D3F-892B-B6434DE801CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riskified.PaymentGateway.Service", "src\Riskified.PaymentGateway.Service\Riskified.PaymentGateway.Service.csproj", "{207005BD-2585-48CF-99C4-0DA16E77CED6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BC064613-883B-4BB0-A63A-12F0740D1B86}"
+ProjectSection(SolutionItems) = preProject
+	src\Directory.Build.props = src\Directory.Build.props
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3D03FB72-5013-4260-BC77-0A5C260357F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camilyo.MyService.Tests", "tests\Riskified.PaymentGateway.Tests\Riskified.PaymentGateway.Tests.csproj", "{0C69B5BE-C538-4CBD-92A8-3F4DCBCC95F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camilyo.MyService.Service.Tests", "tests\Riskified.PaymentGateway.Service.Tests\Riskified.PaymentGateway.Service.Tests.csproj", "{03783D7F-555D-40A8-BFCB-1B78759E023A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D2EB292B-1AE1-401C-88E0-A64E3EF2791F}"
+ProjectSection(SolutionItems) = preProject
+	Directory.Build.props = Directory.Build.props
+	README.md = README.md
+EndProjectSection
+EndProject
+#if (nsbPublishEvents)
+#endif
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9DCFE99-064B-4D3F-892B-B6434DE801CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9DCFE99-064B-4D3F-892B-B6434DE801CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9DCFE99-064B-4D3F-892B-B6434DE801CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9DCFE99-064B-4D3F-892B-B6434DE801CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207005BD-2585-48CF-99C4-0DA16E77CED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207005BD-2585-48CF-99C4-0DA16E77CED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207005BD-2585-48CF-99C4-0DA16E77CED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207005BD-2585-48CF-99C4-0DA16E77CED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C69B5BE-C538-4CBD-92A8-3F4DCBCC95F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C69B5BE-C538-4CBD-92A8-3F4DCBCC95F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C69B5BE-C538-4CBD-92A8-3F4DCBCC95F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C69B5BE-C538-4CBD-92A8-3F4DCBCC95F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03783D7F-555D-40A8-BFCB-1B78759E023A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03783D7F-555D-40A8-BFCB-1B78759E023A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03783D7F-555D-40A8-BFCB-1B78759E023A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03783D7F-555D-40A8-BFCB-1B78759E023A}.Release|Any CPU.Build.0 = Release|Any CPU
+#if (nsbPublishEvents)
+#endif
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9DCFE99-064B-4D3F-892B-B6434DE801CD} = {BC064613-883B-4BB0-A63A-12F0740D1B86}
+		{207005BD-2585-48CF-99C4-0DA16E77CED6} = {BC064613-883B-4BB0-A63A-12F0740D1B86}
+		{0C69B5BE-C538-4CBD-92A8-3F4DCBCC95F1} = {3D03FB72-5013-4260-BC77-0A5C260357F1}
+		{03783D7F-555D-40A8-BFCB-1B78759E023A} = {3D03FB72-5013-4260-BC77-0A5C260357F1}
+#if (nsbPublishEvents)
+#endif
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Camilyo",
+  "classifications": [
+    "Camilyo",
+    "ASP.NET",
+    "Service"
+  ],
+  "name": "Camilyo Service",
+  "identity": "Camilyo.TemplatePack.Service",
+  "shortName": "cam-service",
+  "sourceName": "MyService",
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "rename": {
+            "file.gitignore": ".gitignore"
+          }
+        },
+        {
+          "condition": "(!nsbPublishEvents)",
+          "exclude": [
+            "src/*.Contracts/**"
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true,
+  "symbols": {
+    "nsbPublishEvents": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true",
+      "description": "Indicates whether the service needs to publish events using NServiceBus"
+    },
+    "dashSeparatedName": {
+      "type": "generated",
+      "generator": "regex",
+      "datatype": "string",
+      "parameters": {
+        "source": "name",
+        "steps": [
+          {
+            "regex": "((?!^)|\\b[a-zA-Z][a-z]*)([A-Z][a-z]*|\\d+)",
+            "replacement": "$1-$2"
+          }
+        ]
+      }
+    },
+    "underscoreSeparatedName": {
+      "type": "generated",
+      "generator": "regex",
+      "datatype": "string",
+      "parameters": {
+        "source": "name",
+        "steps": [
+          {
+            "regex": "((?!^)|\\b[a-zA-Z][a-z]*)([A-Z][a-z]*|\\d+)",
+            "replacement": "$1_$2"
+          }
+        ]
+      }
+    },
+    "humanReadableTitleCaseName": {
+      "type": "generated",
+      "generator": "regex",
+      "datatype": "string",
+      "replaces": "My Service",
+      "parameters": {
+        "source": "name",
+        "steps": [
+          {
+            "regex": "((?!^)|\\b[a-zA-Z][a-z]*)([A-Z][a-z]*|\\d+)",
+            "replacement": "$1 $2"
+          }
+        ]
+      }
+    },
+    "kebabCaseName": {
+      "type": "generated",
+      "generator": "casing",
+      "datatype": "string",
+      "replaces": "my-service",
+      "parameters": {
+        "source": "dashSeparatedName",
+        "toLower": true
+      }
+    },
+    "snakeCaseName": {
+      "type": "generated",
+      "generator": "casing",
+      "datatype": "string",
+      "replaces": "my_service",
+      "parameters": {
+        "source": "underscoreSeparatedName",
+        "toLower": true
+      }
+    }
+  }
+}

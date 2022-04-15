@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ugE9Fr3dayRulsLENjfChDaCFROHYYbwLoui91XQcTc=",
+  "Source": "Riskified.PaymentGateway.Service",
+  "BasePath": "_content/Riskified.PaymentGateway.Service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
